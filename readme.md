@@ -9,8 +9,9 @@ Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed 
 - Creo il css.
 - Rimuovo il markup statico per poterlo generare tramite js.
     - Recupero gli elementi del DOM.
-    - Creo un EventListener da collegare al button.  
-        - Creo una function che mi generi la cella.
-        - Creo un ciclo for dentro l'EventListener che inserisca la cella generata precedentemente dalla function nel DOM.
-        - Tramite un innerText inseriamo all'interno della cella il numero corrispondente ovvero l'index number.
-        - 
+    - Creo una function che mi generi la cella.
+    - Creo un EventListener da collegare al button. 
+         - Creo un ciclo for dentro l'EventListener che inserisca la cella generata precedentemente dalla function nel DOM. 
+        - Tramite un innerText inseriamo all'interno della cella il numero corrispondente ovvero l'index number + 1.
+        - Creo un eventlistener alla cella che la colori di azzurro al click.
+        - Creo una costante che sia uguale all'index number associato alla cella per poterla stampare in console.

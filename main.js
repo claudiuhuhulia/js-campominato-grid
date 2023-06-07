@@ -13,13 +13,16 @@ button.addEventListener('click', function(){
 
     for(i= 0 ; i < 100; i ++){
       const cell = createCell();  
-      grid.appendChild(cell);
-      cell.innerText= i + 1;
+      
+      const cellnumb = cell.innerText= i + 1;
 
       cell.addEventListener('click', function(){
 
-        cell.classList.add = ('clicked');
+        cell.classList.add('clicked');
+
+        console.log(cellnumb);
       })
+      grid.appendChild(cell);
     }
 
 })
