@@ -15,6 +15,11 @@ button.addEventListener('click', function(){
       const cell = createCell();  
       grid.appendChild(cell);
       cell.innerText= i + 1;
+
+      cell.addEventListener('click', function(){
+
+        cell.classList.add = ('clicked');
+      })
     }
 
 })

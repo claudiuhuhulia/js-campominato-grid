@@ -13,3 +13,4 @@ Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed 
         - Creo una function che mi generi la cella.
         - Creo un ciclo for dentro l'EventListener che inserisca la cella generata precedentemente dalla function nel DOM.
         - Tramite un innerText inseriamo all'interno della cella il numero corrispondente ovvero l'index number.
+        - 
